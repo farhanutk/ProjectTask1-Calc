@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 500px;
+    background-color: rgb(218, 218, 218);
+    overflow: hidden;
+    border-radius: 15px;
+    border: 2px solid rgb(218, 218, 218);
+}
+
+.container *{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.container .display{
+    background: rgb(19, 19, 19);
+    color: white;
+    text-align: right;
+    width: 100%;
+    height: 100px;
+    padding: 10px 20px;
+    border: 0;
+    font-size: 4rem;
+    box-sizing: border-box;
+}
+
+.container .display:focus{
+    outline: 0;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.buttons .btn{
+    width: 123px;
+    height: 70px;
+    font-size: 2.5rem;
+    padding: 0;
+    border: 0;
+    margin: 1px;
+}
+
+.buttons .sign{
+    background-color: #eee;
+}
+
+.buttons .btn:hover{
+    background-color: rgb(214, 214, 214);
+}
+
+.buttons .btn:focus{
+    outline: 0;
+}
+
+.buttons2{
+    display: flex;
+}
+
+.nos{
+    width: calc(500px - 125px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nos .btn{
+    background-color: white;
+}
+
+.buttons .equals{
+    background-color: orangered;
+    color: rgb(255, 255, 255);
+    height: 286px;
+}
+
+.buttons .equals:hover{
+    background-color: rgb(235, 63, 0);
+}
